@@ -1,0 +1,1 @@
+!function(f){f("form#wpfcrf-form").on("submit",function(){"wpfcrf_all_feeds"==f("form#wpfcrf-form .wpfcrf-select option:selected").val()&&f("form#wpfcrf-form .wpfcrf-select").attr("name",""),""==f("form#wpfcrf-form .wpfcrf-input").val()&&f("form#wpfcrf-form .wpfcrf-input").attr("name","")})}(jQuery);

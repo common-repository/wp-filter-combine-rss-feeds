@@ -1,0 +1,1401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-filter-combine-rss-feeds\n"
+"POT-Creation-Date: 2019-02-27 08:55+0100\n"
+"PO-Revision-Date: 2019-02-27 08:55+0100\n"
+"Last-Translator: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
+"Language-Team: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
+"Language: fr_BE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/wpfcrf-admin-submit-form.php:16
+#: ../inc/wpfcrf-admin-submit-form.php:41
+msgid "Import feeds items"
+msgstr "Importer les items des flux"
+
+#: ../inc/wpfcrf-admin-submit-form.php:20
+msgid "Delete all feeds items"
+msgstr "Supprimer tous les items de flux"
+
+#: ../inc/wpfcrf-admin-submit-form.php:46
+msgid "Delete all feeds sources"
+msgstr "Supprimer toutes les sources"
+
+#: ../inc/wpfcrf-admin-submit-form.php:47
+msgid "Delete all feeds sources and related items"
+msgstr "Supprimer toutes les sources et items associés"
+
+#: ../inc/wpfcrf-admin-submit-form.php:108
+msgid "All sources have been successfully removed."
+msgstr "Toutes les sources ont été supprimées avec succès."
+
+#: ../inc/wpfcrf-admin-submit-form.php:113
+msgid "All feeds items have been successfully removed."
+msgstr "Tous les items de flux ont été supprimés avec succès."
+
+#: ../inc/wpfcrf-admin-submit-form.php:119
+msgid "Feed source and related items have been successfully removed."
+msgstr "Flux et items associés supprimés avec succès."
+
+#: ../inc/wpfcrf-admin-submit-form.php:121
+msgid "Feeds sources and related items have been successfully removed."
+msgstr "Tous les flux et items associés ont été supprimés avec succès."
+
+#: ../inc/wpfcrf-admin-submit-form.php:127
+msgid "Import successfully completed."
+msgstr "Importation réussie."
+
+#: ../inc/wpfcrf-admin-submit-form.php:147
+#, php-format
+msgid "Unable to completely read this RSS feed: %s"
+msgstr "Impossible de lire complètement ce flux RSS : %s"
+
+#: ../inc/wpfcrf-admin-submit-form.php:149
+#, php-format
+msgid "Name: %s | ID: %d"
+msgstr "Nom : %s | ID : %d"
+
+#: ../inc/wpfcrf-cron.php:8
+msgid "Once every minutes"
+msgstr "Une fois toutes les 10 minutes"
+
+#: ../inc/wpfcrf-cron.php:12 ../wp-filter-combine-rss-feeds-options.php:258
+msgid "Once every thirty minutes"
+msgstr "Une fois toutes les 30 minutes"
+
+#: ../inc/wpfcrf-cron.php:16 ../wp-filter-combine-rss-feeds-options.php:259
+msgid "Once an hour"
+msgstr "Une fois par heure"
+
+#: ../inc/wpfcrf-cron.php:20 ../wp-filter-combine-rss-feeds-options.php:260
+msgid "Once every two hours"
+msgstr "Une fois toutes les 2 heures"
+
+#: ../inc/wpfcrf-cron.php:24 ../wp-filter-combine-rss-feeds-options.php:261
+msgid "Once every six hours"
+msgstr "Une fois toutes les 6 heures"
+
+#: ../inc/wpfcrf-cron.php:28 ../wp-filter-combine-rss-feeds-options.php:262
+msgid "Once a half day"
+msgstr "Une fois par demi-journée"
+
+#: ../inc/wpfcrf-cron.php:32 ../wp-filter-combine-rss-feeds-options.php:263
+msgid "Once a day"
+msgstr "Une fois par jour"
+
+#: ../inc/wpfcrf-cron.php:36
+msgid "Once every 4 days"
+msgstr "Une fois tous les 4 jours"
+
+#: ../inc/wpfcrf-cron.php:40 ../wp-filter-combine-rss-feeds-options.php:265
+msgid "Once a week"
+msgstr "Une fois par semaine"
+
+#: ../inc/wpfcrf-cron.php:44 ../wp-filter-combine-rss-feeds-options.php:266
+msgid "Once a month"
+msgstr "Une fois par mois"
+
+#: ../inc/wpfcrf-custom-post-types.php:7 ../inc/wpfcrf-custom-post-types.php:8
+msgid "Add a feed source"
+msgstr "Ajouter un flux"
+
+#: ../inc/wpfcrf-custom-post-types.php:9
+msgid "New feed"
+msgstr "Nouveau flux"
+
+#: ../inc/wpfcrf-custom-post-types.php:10
+#: ../inc/wpfcrf-custom-post-types.php:11
+msgid "Feeds sources"
+msgstr "Sources des flux"
+
+#: ../inc/wpfcrf-custom-post-types.php:12
+msgid "View feed source"
+msgstr "Voir la source"
+
+#: ../inc/wpfcrf-custom-post-types.php:13
+msgid "Edit a feed source"
+msgstr "Éditer le flux"
+
+#: ../inc/wpfcrf-custom-post-types.php:14
+#: ../inc/wpfcrf-custom-post-types.php:50
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: ../inc/wpfcrf-custom-post-types.php:15
+msgid "Search for a source"
+msgstr "Rechercher un flux"
+
+#: ../inc/wpfcrf-custom-post-types.php:16
+#: ../inc/wpfcrf-custom-post-types.php:52
+msgid "No result"
+msgstr "Aucun résultat"
+
+#: ../inc/wpfcrf-custom-post-types.php:17
+#: ../inc/wpfcrf-custom-post-types.php:53
+msgid "No result in the trash"
+msgstr "Aucun résultat dans la corbeille"
+
+#: ../inc/wpfcrf-custom-post-types.php:45
+#: ../inc/wpfcrf-custom-post-types.php:46
+#: ../inc/wpfcrf-custom-post-types.php:47
+msgid "Feeds items"
+msgstr "Items des flux"
+
+#: ../inc/wpfcrf-custom-post-types.php:48
+msgid "View feed item"
+msgstr "Voir l'item"
+
+#: ../inc/wpfcrf-custom-post-types.php:49
+msgid "Edit a feed item"
+msgstr "Editer un item"
+
+#: ../inc/wpfcrf-custom-post-types.php:51
+msgid "Search for an item"
+msgstr "Rechercher une référence"
+
+#: ../inc/wpfcrf-getters.php:108
+msgid "« Previous"
+msgstr "« Précédent"
+
+#: ../inc/wpfcrf-getters.php:109
+msgid "Next »"
+msgstr "Suivant »"
+
+#: ../inc/wpfcrf-getters.php:118 ../inc/wpfcrf-getters.php:121
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entrées plus anciennes"
+
+#: ../inc/wpfcrf-getters.php:119 ../inc/wpfcrf-getters.php:122
+msgid "Newer Entries &raquo;"
+msgstr "Entrées plus récentes &raquo;"
+
+#: ../inc/wpfcrf-manage-menus-and-actions.php:15
+#: ../inc/wpfcrf-manage-menus-and-actions.php:53
+msgid "Import items from this source"
+msgstr "Importez les items de ce flux"
+
+#: ../inc/wpfcrf-manage-menus-and-actions.php:16
+#: ../inc/wpfcrf-manage-menus-and-actions.php:54
+msgid "Delete feed and related items"
+msgstr "Supprimer le flux et les items associés"
+
+#: ../inc/wpfcrf-manage-menus-and-actions.php:114
+msgid "Settings"
+msgstr "Options"
+
+#: ../inc/wpfcrf-manage-menus-and-actions.php:134
+msgid "Link"
+msgstr "Lien"
+
+#: ../inc/wpfcrf-manage-menus-and-actions.php:135
+msgid "RSS Feeds"
+msgstr "Flux RSS"
+
+#: ../inc/wpfcrf-manage-menus-and-actions.php:186
+#: ../inc/wpfcrf-shortcode.php:179
+msgid "All feeds"
+msgstr "Tous les flux"
+
+#: ../inc/wpfcrf-metaboxes.php:49
+msgid "Feed item information"
+msgstr "Information sur l'item du flux"
+
+#: ../inc/wpfcrf-metaboxes.php:65
+msgid "Post URL"
+msgstr "URL de la publication"
+
+#: ../inc/wpfcrf-metaboxes.php:67
+msgid "Related source (ID)"
+msgstr "Source associée (ID)"
+
+#: ../inc/wpfcrf-metaboxes.php:108
+msgid "Feed URL"
+msgstr "Adresse du flux"
+
+#: ../inc/wpfcrf-metaboxes.php:122
+msgid "Add the URL feed"
+msgstr "Ajouter l'adresse du flux"
+
+#: ../inc/wpfcrf-shortcode.php:149
+msgid "No RSS feeds match your search. Please try again with another search."
+msgstr ""
+"Aucun flux trouvé lors de votre recherche. Veuillez retenter avec une autre "
+"recherche."
+
+#: ../wp-filter-combine-rss-feeds-options.php:46
+msgid ""
+"Use the shortcodes <strong>[wpfcrf]</strong> to display the combined RSS "
+"feeds (one or more feeds) and <strong>[wpfcrf-form]</strong> to display the "
+"search form within feeds (optional filtering)."
+msgstr ""
+"Utilisez les shortcodes <strong>[wpfcrf]</strong> pour afficher les flux "
+"combinés (un ou plusieurs flux) et <strong>[wpfcrf-form]</strong> pour "
+"afficher le formulaire de recherche (optionnel)."
+
+#: ../wp-filter-combine-rss-feeds-options.php:49
+#: ../wp-filter-combine-rss-feeds-options.php:345
+msgid "Save Changes"
+msgstr "Enregistrer"
+
+#: ../wp-filter-combine-rss-feeds-options.php:50
+msgid "Copy [wpfcrf]"
+msgstr "Copier [wpfcrf]"
+
+#: ../wp-filter-combine-rss-feeds-options.php:51
+#: ../wp-filter-combine-rss-feeds-options.php:53
+msgid "Copied!"
+msgstr "Copié !"
+
+#: ../wp-filter-combine-rss-feeds-options.php:52
+msgid "Copy [wpfcrf-form]"
+msgstr "Copier [wpfcrf-form]"
+
+#: ../wp-filter-combine-rss-feeds-options.php:62
+msgid "Content settings"
+msgstr "Paramètres des contenus"
+
+#: ../wp-filter-combine-rss-feeds-options.php:64
+msgid "Search settings"
+msgstr "Paramètres de recherche"
+
+#: ../wp-filter-combine-rss-feeds-options.php:66
+msgid "Set the search form (optional) used to filter the results."
+msgstr ""
+"Positionnez le formulaire de recherche utilisé pour filtrer les résultats "
+"(optionnel)."
+
+#: ../wp-filter-combine-rss-feeds-options.php:71
+msgid "Show or not the search form?"
+msgstr "Afficher ou non le formulaire de recherche ?"
+
+#: ../wp-filter-combine-rss-feeds-options.php:72
+msgid ""
+"Choose the position of the search form (above feeds, below feeds, or "
+"hidden). It is possible to display the search form where you want it with "
+"the shortcode [wpfcrf-form]."
+msgstr ""
+"Choisissez la position du formulaire de recherche (sur les flux, sous les "
+"flux ou masqué). Il est également possible de positionner le formulaire de "
+"recherche là où vous le souhaitez via le shortcode [wpfcrf-form]."
+
+#: ../wp-filter-combine-rss-feeds-options.php:76
+msgid "Hide the form"
+msgstr "Masquer le formulaire"
+
+#: ../wp-filter-combine-rss-feeds-options.php:77
+msgid "Above RSS feeds"
+msgstr "Au-dessus des flux"
+
+#: ../wp-filter-combine-rss-feeds-options.php:78
+msgid "Below RSS feeds"
+msgstr "Sous les flux"
+
+#: ../wp-filter-combine-rss-feeds-options.php:84
+msgid "Placeholder for the search field"
+msgstr "Placeholder du champ de recherche"
+
+#: ../wp-filter-combine-rss-feeds-options.php:85
+msgid ""
+"Choose the replacement text that will be entered in the search field "
+"(\"Search ...\" by default)."
+msgstr ""
+"Choisissez le texte de remplacement qui sera inscrit dans le champ de "
+"recherche (\"Rechercher...\" par défaut)."
+
+#: ../wp-filter-combine-rss-feeds-options.php:93
+msgid "Text for the validation button"
+msgstr "Texte du bouton de validation"
+
+#: ../wp-filter-combine-rss-feeds-options.php:94
+msgid "Set the text for the validation button (\"OK\" by default)."
+msgstr "Choisissez le texte de bouton de soumission (\"OK\" par défaut)."
+
+#: ../wp-filter-combine-rss-feeds-options.php:102
+msgid "Pagination type"
+msgstr "Type de pagination"
+
+#: ../wp-filter-combine-rss-feeds-options.php:103
+msgid "Select the pagination type."
+msgstr "Sélectionnez le type de pagination."
+
+#: ../wp-filter-combine-rss-feeds-options.php:107
+msgid "Numbered pagination"
+msgstr "Pagination numérotée"
+
+#: ../wp-filter-combine-rss-feeds-options.php:108
+msgid "Previous/Next links"
+msgstr "Liens Précédent/Suivant"
+
+#: ../wp-filter-combine-rss-feeds-options.php:109
+#: ../wp-filter-combine-rss-feeds-options.php:299
+msgid "None"
+msgstr "Aucun"
+
+#: ../wp-filter-combine-rss-feeds-options.php:115
+msgid "How many posts per page?"
+msgstr "Combien de publications par page ?"
+
+#: ../wp-filter-combine-rss-feeds-options.php:116
+msgid ""
+"Set the number of posts to display per page (0 to cancel pagination and "
+"display all results on one page)."
+msgstr ""
+"Déterminez le nombre de publications à afficher par page (0 pour annuler la "
+"pagination et tout afficher sur une seule page)."
+
+#: ../wp-filter-combine-rss-feeds-options.php:124
+msgid "Order of posting RSS feeds"
+msgstr "Ordre d'affichage des flux RSS"
+
+#: ../wp-filter-combine-rss-feeds-options.php:125
+msgid "Select ascending or descending order according to your desires."
+msgstr ""
+"Sélectionnez l'ordre ascendant ou descendant selon vos préférences de "
+"classement."
+
+#: ../wp-filter-combine-rss-feeds-options.php:129
+msgid "Descending (DESC)"
+msgstr "Descendant (DESC)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:130
+msgid "Ascending (ASC)"
+msgstr "Ascendant (ASC)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:136
+msgid "Ranking type"
+msgstr "Type de classement"
+
+#: ../wp-filter-combine-rss-feeds-options.php:137
+msgid ""
+"Select the sorting type for the publication display (\"By publish date\" "
+"recommended)."
+msgstr "Sélectionnez le type de classement pour l'affichage des publications."
+
+#: ../wp-filter-combine-rss-feeds-options.php:141
+msgid "By publish date"
+msgstr "Par date de publication"
+
+#: ../wp-filter-combine-rss-feeds-options.php:142
+msgid "By title"
+msgstr "Par titre"
+
+#: ../wp-filter-combine-rss-feeds-options.php:143
+msgid "By ID"
+msgstr "Par identifiant (ID)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:149
+msgid "Hide search by name?"
+msgstr "Masquer la recherche par nom de flux?"
+
+#: ../wp-filter-combine-rss-feeds-options.php:150
+msgid "If you select \"yes\", the search field by feed name will be disabled."
+msgstr ""
+"Si vous sélectionnez \"oui\", la liste déroulante des noms de flux sera "
+"cachée."
+
+#: ../wp-filter-combine-rss-feeds-options.php:154
+#: ../wp-filter-combine-rss-feeds-options.php:166
+#: ../wp-filter-combine-rss-feeds-options.php:178
+#: ../wp-filter-combine-rss-feeds-options.php:236
+msgid "Yes"
+msgstr "Oui"
+
+#: ../wp-filter-combine-rss-feeds-options.php:155
+#: ../wp-filter-combine-rss-feeds-options.php:167
+#: ../wp-filter-combine-rss-feeds-options.php:179
+#: ../wp-filter-combine-rss-feeds-options.php:237
+msgid "No"
+msgstr "Non"
+
+#: ../wp-filter-combine-rss-feeds-options.php:161
+msgid "Hide search input?"
+msgstr "Masquer le champ de recherche?"
+
+#: ../wp-filter-combine-rss-feeds-options.php:162
+msgid "If you select \"yes\", the search input field will be hidden."
+msgstr "Si vous cliquez sur \"oui\", le champ de texte sera caché."
+
+#: ../wp-filter-combine-rss-feeds-options.php:173
+msgid "Hide validation button?"
+msgstr "Masquer le bouton de validation?"
+
+#: ../wp-filter-combine-rss-feeds-options.php:174
+msgid ""
+"If you select \"yes\", you must validate the search by pressing the \"Enter"
+"\" key."
+msgstr ""
+"Si vous cliquez sur \"oui\", vous devrez valider la recherche en cliquant "
+"sur la touche \"Entrée\"."
+
+#: ../wp-filter-combine-rss-feeds-options.php:186
+msgid "Custom settings"
+msgstr "Paramètres personnalisés"
+
+#: ../wp-filter-combine-rss-feeds-options.php:188
+msgid "General settings to manage the display of RSS feeds."
+msgstr "Paramètres généraux pour gérer l'affichage des flux RSS."
+
+#: ../wp-filter-combine-rss-feeds-options.php:190
+msgid "Change the following options to adjust the display of feeds."
+msgstr "Modifiez les options suivantes pour ajuster l'affichage des flux."
+
+#: ../wp-filter-combine-rss-feeds-options.php:195
+msgid "Date format"
+msgstr "Format de date"
+
+#: ../wp-filter-combine-rss-feeds-options.php:196
+msgid ""
+"Choose the correct date format for RSS feeds. Use the <a href=\"https://"
+"codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\">official "
+"PHP documentation</a> to find the ideal format (\"j F Y\" in France for "
+"example)."
+msgstr ""
+"Paramétrer le format de date pour les flux RSS. Utilisez la <a href="
+"\"https://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank"
+"\">documentation officielle de PHP</a> pour trouver le format idéal (\"j F Y"
+"\" en France par exemple)."
+
+#: ../wp-filter-combine-rss-feeds-options.php:204
+msgid "Source prefix (metadata)"
+msgstr "Préfixe de la source (métadonnée)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:205
+msgid "By default, the name of RSS feeds is preceded by \"Source:\"."
+msgstr "Par défaut, le nom des flux RSS est précédé par \"Source :\"."
+
+#: ../wp-filter-combine-rss-feeds-options.php:205
+#: ../wp-filter-combine-rss-feeds-options.php:214
+msgid "Leave blank to hide the block."
+msgstr "Laissez vide pour masquer le bloc."
+
+#: ../wp-filter-combine-rss-feeds-options.php:213
+msgid "Date prefix (metadata)"
+msgstr "Préfixe de la date (métadonnée)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:214
+msgid ""
+"By default, the published date of posts is preceded by \"Published by\"."
+msgstr ""
+"Par défaut, la date de publication des articles est précédée par \"Publié par"
+"\"."
+
+#: ../wp-filter-combine-rss-feeds-options.php:222
+msgid "Separator"
+msgstr "Séparateur"
+
+#: ../wp-filter-combine-rss-feeds-options.php:223
+msgid ""
+"Choose the separator that will be placed between the feed name and the date "
+"(if both information is displayed)."
+msgstr ""
+"Choisissez le séparateur à positionner entre le nom du flux et la date de "
+"publication (si les deux informations sont affichées)."
+
+#: ../wp-filter-combine-rss-feeds-options.php:223
+msgid "Leave blank to hide the separator."
+msgstr "Laissez vide pour masquer le séparateur."
+
+#: ../wp-filter-combine-rss-feeds-options.php:223
+msgid "Automatically hidden if one of the prefixes above is hidden."
+msgstr "Automatiquement masqué si on des préfixes ci-dessus est masqué."
+
+#: ../wp-filter-combine-rss-feeds-options.php:231
+msgid "Open feeds links in a new tab?"
+msgstr "Ouvrir les flux dans un nouvel onglet?"
+
+#: ../wp-filter-combine-rss-feeds-options.php:232
+msgid ""
+"If you select \"yes\", the links will automatically have a target=\"_blank\" "
+"to open the page in a new tab."
+msgstr ""
+"Si vous sélectionnez \"oui\", les liens auront automatiquement un target="
+"\"_blank\" pour ouvrir la page dans un nouvel onglet."
+
+#: ../wp-filter-combine-rss-feeds-options.php:243
+msgid "Frequency of automatic update of RSS feeds"
+msgstr "Fréquence de mise à jour automatique des flux"
+
+#: ../wp-filter-combine-rss-feeds-options.php:244
+msgid "Determine how often the feed items need to be updated."
+msgstr ""
+"Détermine à quelle fréquence les items doivent être mis à jour "
+"automatiquement."
+
+#: ../wp-filter-combine-rss-feeds-options.php:249
+msgid "Next update:"
+msgstr "Prochaine mise à jour :"
+
+#: ../wp-filter-combine-rss-feeds-options.php:249
+msgid "Y-m-d H:i:s"
+msgstr "d/m/Y H:i:s"
+
+#: ../wp-filter-combine-rss-feeds-options.php:256
+msgid "No automatic update"
+msgstr "Aucune mise à jour automatique"
+
+#: ../wp-filter-combine-rss-feeds-options.php:257
+#, fuzzy
+#| msgid "Once every thirty minutes"
+msgid "Once every ten minutes"
+msgstr "Une fois toutes les 30 minutes"
+
+#: ../wp-filter-combine-rss-feeds-options.php:264
+msgid "Once every four days"
+msgstr "Une fois tous les quatre jours"
+
+#: ../wp-filter-combine-rss-feeds-options.php:272
+msgid "Importation method in PHP (for developers)"
+msgstr "Méthode d'importation en PHP (pour les développeurs)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:273
+msgid ""
+"Select your preferred (and compatible) method for importing RSS feeds into "
+"PHP. If one method does not work, test the other to solve the problem."
+msgstr ""
+"Sélectionnez votre méthode préférée (et compatible) pour importer les flux "
+"RSS en PHP. Si une méthode ne fonctionne pas, testez l'autre pour "
+"solutionner le problème."
+
+#: ../wp-filter-combine-rss-feeds-options.php:277
+msgid "XMLReader (recommended)"
+msgstr "XMLReader (recommandé)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:278
+msgid "SimpleXML"
+msgstr "SimpleXML"
+
+#: ../wp-filter-combine-rss-feeds-options.php:285
+msgid "Style settings"
+msgstr "Options de style"
+
+#: ../wp-filter-combine-rss-feeds-options.php:287
+msgid "Some elements to stylize the form and feeds"
+msgstr ""
+"Quelques éléments pour styliser le formulaire de recherche et la liste des "
+"flux"
+
+#: ../wp-filter-combine-rss-feeds-options.php:289
+msgid ""
+"Choose a template or create your own CSS style with the selectors shown "
+"below."
+msgstr ""
+"Choisissez un thème ou créez le vôtre en CSS avec les sélecteurs affichés ci-"
+"dessous."
+
+#: ../wp-filter-combine-rss-feeds-options.php:294
+msgid "Template"
+msgstr "Thème"
+
+#: ../wp-filter-combine-rss-feeds-options.php:295
+msgid ""
+"Choose your favorite template. You can select \"none\" if you want to create "
+"your own CSS style."
+msgstr ""
+"Choisissez votre thème préférée. Vous pouvez aussi sélectionner \"Aucun\" si "
+"vous préférez créer votre propre style CSS."
+
+#: ../wp-filter-combine-rss-feeds-options.php:300
+msgid "Dark blocks"
+msgstr "Dark Blocks"
+
+#: ../wp-filter-combine-rss-feeds-options.php:301
+msgid "Dark text"
+msgstr "Dark text"
+
+#: ../wp-filter-combine-rss-feeds-options.php:302
+msgid "White blocks"
+msgstr "White blocks"
+
+#: ../wp-filter-combine-rss-feeds-options.php:303
+msgid "White text"
+msgstr "White text"
+
+#: ../wp-filter-combine-rss-feeds-options.php:304
+msgid "Blue blocks"
+msgstr "Blue blocks"
+
+#: ../wp-filter-combine-rss-feeds-options.php:305
+msgid "Blue text"
+msgstr "Blue text"
+
+#: ../wp-filter-combine-rss-feeds-options.php:311
+msgid "CSS selectors for RSS feed list"
+msgstr "Sélecteurs CSS pour la liste des flux RSS"
+
+#: ../wp-filter-combine-rss-feeds-options.php:312
+msgid ""
+"See the following CSS selectors if you want to customize the display of RSS "
+"feeds."
+msgstr ""
+"Consultez les sélecteurs CSS suivants si vous souhaitez personnaliser "
+"l'affichage des flux RSS."
+
+#: ../wp-filter-combine-rss-feeds-options.php:315
+msgid "ID or class for the full container"
+msgstr "ID ou classe du bloc complet"
+
+#: ../wp-filter-combine-rss-feeds-options.php:316
+msgid "ID or class for the list of RSS feeds"
+msgstr "ID ou classe de la liste des flux"
+
+#: ../wp-filter-combine-rss-feeds-options.php:317
+msgid "ID or class for the ul block"
+msgstr "ID ou classe du bloc de liste (ul)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:318
+msgid "class for each list item"
+msgstr "classe pour chaque item de liste"
+
+#: ../wp-filter-combine-rss-feeds-options.php:319
+msgid "Container class (span) that includes the link of a feed (a)"
+msgstr "Classe du conteneur (span) qui contient le lien du flux (a)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:320
+msgid "class of the metadata block"
+msgstr "classe du bloc de métadonnées"
+
+#: ../wp-filter-combine-rss-feeds-options.php:321
+msgid "source class (name of the feed)"
+msgstr "classe de la source (nom du flux)"
+
+#: ../wp-filter-combine-rss-feeds-options.php:322
+msgid "separator class"
+msgstr "classe du séparateur"
+
+#: ../wp-filter-combine-rss-feeds-options.php:323
+msgid "date class"
+msgstr "classe de la date"
+
+#: ../wp-filter-combine-rss-feeds-options.php:324
+msgid "class if no result is found during a search"
+msgstr "classe utilisée si aucun résultat n'est trouvé"
+
+#: ../wp-filter-combine-rss-feeds-options.php:329
+msgid "CSS selectors for search form"
+msgstr "Sélecteurs CSS pour le formulaire de recherche"
+
+#: ../wp-filter-combine-rss-feeds-options.php:330
+msgid ""
+"See the following CSS selectors if you want to customize the display of the "
+"search form."
+msgstr ""
+"Consultez les sélecteurs CSS suivants si vous souhaitez personnaliser "
+"l'affichage du formulaire de recherche."
+
+#: ../wp-filter-combine-rss-feeds-options.php:333
+msgid "ID or class of the form"
+msgstr "ID ou class du formulaire"
+
+#: ../wp-filter-combine-rss-feeds-options.php:334
+msgid "select class"
+msgstr "classe de la liste des noms de flux"
+
+#: ../wp-filter-combine-rss-feeds-options.php:335
+msgid "search input class"
+msgstr "class du champ de texte"
+
+#: ../wp-filter-combine-rss-feeds-options.php:336
+msgid "submit button class"
+msgstr "classe du bouton submit"
+
+#: ../wp-filter-combine-rss-feeds.php:157
+msgid "Search"
+msgstr "Rechercher"
+
+#: ../wp-filter-combine-rss-feeds.php:158
+msgid "OK"
+msgstr "OK"
+
+#: ../wp-filter-combine-rss-feeds.php:166
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: ../wp-filter-combine-rss-feeds.php:167
+msgid "Source:"
+msgstr "Source :"
+
+#: ../wp-filter-combine-rss-feeds.php:168
+msgid "Published on"
+msgstr "Publié le"
+
+#~ msgid "Manage RSS Feeds"
+#~ msgstr "Gestion des flux"
+
+#~ msgid ""
+#~ "Update successfully completed. Do not forget to import your feed items!"
+#~ msgstr ""
+#~ "Mise à jour réussie avec succès. N'oubliez pas d'importer vos items de "
+#~ "flux !"
+
+#~ msgid "Please fill in all URL fields for RSS feeds."
+#~ msgstr "Veuillez remplir le champ URL de toutes les sources RSS."
+
+#~ msgid "Add your RSS Feeds"
+#~ msgstr "Ajoutez vos flux RSS"
+
+#~ msgid "Add one or several feeds"
+#~ msgstr "Ajoutez un ou plusieurs flux"
+
+#~ msgid "Add a title and a URL for each feed you want to combine"
+#~ msgstr ""
+#~ "Ajoutez un titre et une URL pour chaque flux que vous souhaitez combiner"
+
+#~ msgid "feed name"
+#~ msgstr "nom du flux"
+
+#~ msgid "Remove this feed"
+#~ msgstr "Supprimer ce flux"
+
+#~ msgid "none"
+#~ msgstr "Aucun"
+
+#~ msgid "Readme"
+#~ msgstr "Documentation"
+
+#~ msgid ""
+#~ "<strong>Modal portfolio</strong> is an image gallery plugin constituting "
+#~ "a portfolio with filters and style effects.<br/>The extension uses a "
+#~ "system shortcode <strong>[modal-portfolio]</strong> with options "
+#~ "(described below)."
+#~ msgstr ""
+#~ "<strong>Modal portfolio</strong> est un plugin de galeries d'images "
+#~ "constituant un portfolio avec filtres et effets de style.<br/>L'extension "
+#~ "utilise un système de shortcode <strong>[modal-portfolio]</strong> avec "
+#~ "options (décrites ci-dessous)."
+
+#~ msgid ""
+#~ "The following documentation describes the installation and overall "
+#~ "operation of the plugin."
+#~ msgstr ""
+#~ "La documentation ci-dessous explique l'installation et le fonctionnement "
+#~ "global du plugin."
+
+#~ msgid ""
+#~ "<em>N.B.: contact <a href=\"http://blog.internet-formation.fr/\" target="
+#~ "\"_blank\">Mathieu Chartier</a>, the creator of the plugin, for more "
+#~ "information.</em>"
+#~ msgstr ""
+#~ "<em>N.B. : n'hésitez pas à contacter <a href=\"http://blog.internet-"
+#~ "formation.fr\" target=\"_blank\">Mathieu Chartier</a>, le créateur du "
+#~ "plugin, pour de plus amples informations.</em>"
+
+#~ msgid "Plugin customization"
+#~ msgstr "Personnalisation du plugin"
+
+#~ msgid "1. Set the general options"
+#~ msgstr "1. Régler les options générales"
+
+#~ msgid "Show blocks and manage desired effects"
+#~ msgstr "Afficher les blocs et gérer les effets désirés"
+
+#~ msgid "Choose preferential blocks to display"
+#~ msgstr "Choisissez les blocs préférentiels à afficher"
+
+#~ msgid "Optimize block display with customizable jQuery effects"
+#~ msgstr ""
+#~ "Optimisez l'affichage des blocs avec des effets jQuery personnalisables"
+
+#~ msgid "Screenshots"
+#~ msgstr "Captures d'écran"
+
+#~ msgid "2. Create portfolio categories"
+#~ msgstr "2. Créer les catégories du portfolio"
+
+#~ msgid "Fast and simple installation !"
+#~ msgstr "Installation simple et rapide !"
+
+#~ msgid "Create parent and child categories (if desired)."
+#~ msgstr "Créez des catégories parentes et enfants (si désirées)."
+
+#~ msgid ""
+#~ "Be careful not to do too many offspring (categories and subcategories, no "
+#~ "more ...)."
+#~ msgstr ""
+#~ "Veillez à ne pas faire trop de descendances (catégories et sous-"
+#~ "catégories, pas plus...)."
+
+#~ msgid ""
+#~ "Note: the plugin works well on both levels but may have some problems "
+#~ "when there are several levels of subcategories if you do not check parent "
+#~ "categories ..."
+#~ msgstr ""
+#~ "N.B. : le plugin fonctionne bien sur deux niveaux mais peut avoir "
+#~ "quelques soucis quand il y a plusieurs niveaux de sous-catégories si vous "
+#~ "ne cochez pas les catégories parentes..."
+
+#~ msgid "3. Add the adapted shortcode [modal-portfolio]"
+#~ msgstr "3. Ajouter le shortcode [modal-portfolio] adapté"
+
+#~ msgid "Several options"
+#~ msgstr "Plusieurs options possibles"
+
+#~ msgid "Use the shortcode [modal-portfolio] to display all."
+#~ msgstr "Utilisez le shortcode [modal-portfolio] pour tout afficher."
+
+#~ msgid ""
+#~ "Use the shortcode [modal-portfolio categorie_parente=\"category_name\"] "
+#~ "or [modal-portfolio parent_cat=\"category_name\"] to display only the "
+#~ "references of the selected category."
+#~ msgstr ""
+#~ "Utilisez le shortcode [modal-portfolio categorie_parente=\"nom_categorie"
+#~ "\"] ou [modal-portfolio parent_cat=\"nom_categorie\"] pour n'afficher que "
+#~ "les références de la catégorie choisie."
+
+#~ msgid ""
+#~ "Use the shortcode [modal-portfolio parents=1] to display the items of "
+#~ "parent categories and the corresponding filters (hidden by default)."
+#~ msgstr ""
+#~ "Utilisez le shortcode [modal-portfolio parents=1] pour afficher les items "
+#~ "des catégories parentes et les filtres correspondants (masquées par "
+#~ "défaut)."
+
+#~ msgid "Pair the two options if necessary as in the attached capture."
+#~ msgstr ""
+#~ "Couplez les deux options si nécessaire comme dans la capture ci-jointe."
+
+#~ msgid "4. Add the items"
+#~ msgstr "4. Ajouter les références"
+
+#~ msgid "Fast and simple installation :"
+#~ msgstr "Installation simple et rapide :"
+
+#~ msgid "Add a title to your portfolio item."
+#~ msgstr "Ajouter un titre à votre item de portfolio."
+
+#~ msgid "Complete the description if you use the feature."
+#~ msgstr "Remplissez la description si vous utilisez la fonctionnalité."
+
+#~ msgid "Add a title for the thumbnail overview (optional)."
+#~ msgstr "Ajouter un titre pour le survol des vignettes (optionnel)."
+
+#~ msgid "Choose the post_thumbnail for the portfolio."
+#~ msgstr "Choisissez l'image à la Une comme image de portfolio ou de galerie."
+
+#~ msgid "Add a video to display in the modal window (optional)."
+#~ msgstr "Ajouter une vidéo à afficher dans la fenêtre modale (optionnel)."
+
+#~ msgid "Note: the video replaces the post thumbnail in the modal window."
+#~ msgstr "N.B. : la vidéo remplace l'image à la Une dans la fenêtre modale."
+
+#~ msgid "5. Adapt the CSS"
+#~ msgstr "5. Adapter le CSS"
+
+#~ msgid "Method 1:"
+#~ msgstr "Méthode 1 :"
+
+#~ msgid "Display the path to your own CSS in options."
+#~ msgstr "Affichez le chemin de votre propre CSS dans les options."
+
+#~ msgid "Create the corresponding stylesheet in your theme."
+#~ msgstr "Créez la feuille de style correspondante dans votre thème."
+
+#~ msgid ""
+#~ "NB: leave blank if you do not want to use a particular style sheet ..."
+#~ msgstr ""
+#~ "N.B. : laissez vide si vous ne voulez pas utiliser une feuille de style "
+#~ "particulière..."
+
+#~ msgid "Method 2:"
+#~ msgstr "Méthode 2 :"
+
+#~ msgid "Personalize the plugin stylesheet in the style options."
+#~ msgstr ""
+#~ "Personnalisez la feuille de style du plugin dans les options de style."
+
+#~ msgid "List of the CSS classes and IDs"
+#~ msgstr "Liste des classes et ID :"
+
+#~ msgid "Complete block for a reference"
+#~ msgstr "bloc complet d'une référence"
+
+#~ msgid "block information of a thumbnail"
+#~ msgstr "bloc d'informations d'une vignette"
+
+#~ msgid "thumbnail background (jQuery effect)"
+#~ msgstr "fond d'écran d'une vignette (effet jQuery)"
+
+#~ msgid "thumbnail title"
+#~ msgstr "titre d'une vignette"
+
+#~ msgid "thumbnail category"
+#~ msgstr "catégorie de la vignette"
+
+#~ msgid "block containing filters"
+#~ msgstr "bloc contenant les filtres"
+
+#~ msgid "filter bouton"
+#~ msgstr "bouton d'un filtre"
+
+#~ msgid "current filter button"
+#~ msgstr "bouton courant d'un filtre"
+
+#~ msgid "block containing all references and modal"
+#~ msgstr "bloc contenant toutes les références et les modales"
+
+#~ msgid "thumbnail block (with title and category)"
+#~ msgstr "bloc d'une vignette (avec titre et catégorie)"
+
+#~ msgid "complete block of the modal (with closing cross, etc.)"
+#~ msgstr "bloc complet de la modale (avec croix de fermeture, etc.)"
+
+#~ msgid "background class (overlay)"
+#~ msgstr "couleur du fond (overlay)"
+
+#~ msgid "modal block (content)"
+#~ msgstr "bloc de la modale (contenu)"
+
+#~ msgid "block in .simple-modal-wrap"
+#~ msgstr "bloc contenu dans .simple-modal-wrap"
+
+#~ msgid "block containing the video"
+#~ msgstr "bloc contenant la vidéo"
+
+#~ msgid "block that contains the information from the modal window"
+#~ msgstr "bloc qui contient les informations de la fenêtre modale"
+
+#~ msgid "class of the image displayed in the modal window"
+#~ msgstr "classe de l'image affichée dans la fenêtre modale"
+
+#~ msgid "class of content displayed in the modal"
+#~ msgstr "classe des contenus affichés dans la modale"
+
+#~ msgid "class of the block containing the \"Close\" button"
+#~ msgstr "classe du bloc contenant le bouton \"Fermer\""
+
+#~ msgid "Portfolio"
+#~ msgstr "Portfolio"
+
+#~ msgid "Add an item"
+#~ msgstr "Ajouter une référence"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "CSS Styles"
+#~ msgstr "Styles CSS"
+
+#~ msgid "View all categories"
+#~ msgstr "Voir toutes les références"
+
+#~ msgid "The thumbnail title"
+#~ msgstr "Titre de la vignette"
+
+#~ msgid "Add a video (overwrites the post thumbnail)"
+#~ msgstr "Ajout d'une vidéo (remplace l'image à la Une)"
+
+#~ msgid ""
+#~ "Title displayed when hovering the thumbnail in the references page "
+#~ "(Porfolio)"
+#~ msgstr ""
+#~ "Titre affiché lors du survol des vignettes dans la page des références "
+#~ "(Porfolio)"
+
+#~ msgid "Add a video using the media gallery or external URL:"
+#~ msgstr ""
+#~ "Ajoutez une vidéo en utilisant la galerie des médias ou une URL externe :"
+
+#~ msgid "- HTML 5 video formats supported (webm, mp4 and ogg)."
+#~ msgstr "- Formats de vidéo HTML 5 supportés (webm, mp4 et ogg)."
+
+#~ msgid ""
+#~ "- Videos from YouTube, Dailymotion and Vimeo (copy the video link in the "
+#~ "field in this case)."
+#~ msgstr ""
+#~ "- Vidéos YouTube, Dailymotion ou Vimeo (copier le lien de la vidéo dans "
+#~ "le champ dans ce cas)."
+
+#~ msgid ""
+#~ "Note: if this field is filled, it takes the place of the post thumbnail "
+#~ "(used by default)."
+#~ msgstr ""
+#~ "N.B. : si ce champ est rempli, il prend la place de l'image à la Une "
+#~ "(prise en compte par défaut)."
+
+#~ msgid "Add a video"
+#~ msgstr "Ajouter une vidéo"
+
+#~ msgid "Video URL"
+#~ msgstr "URL de la vidéo"
+
+#~ msgid "Select or add a video"
+#~ msgstr "Sélectionnez ou ajoutez une vidéo"
+
+#~ msgid "Use this video"
+#~ msgstr "Utilisez cette vidéo"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "Modal Portfolio Settings"
+#~ msgstr "Réglages de Modal Portfolio"
+
+#~ msgid ""
+#~ "<strong>Modal portfolio</strong> is an extension to display a photo "
+#~ "gallery (portfolio) with modal (pop- in) possibly containing a "
+#~ "customizable description."
+#~ msgstr ""
+#~ "<strong>Modal portfolio</strong> est une extension destinée à afficher "
+#~ "une galerie photo (portfolio) avec des modales (pop-in) contenant "
+#~ "éventuellement une description personnalisable."
+
+#~ msgid ""
+#~ "Just use the shortcode <strong>[modal-portfolio]</strong> with or without "
+#~ "options to display the references (<em>see documentation (readme section) "
+#~ "for additional options</em>)."
+#~ msgstr ""
+#~ "Il suffit d'utiliser le shortcode <strong>[modal-portfolio]</strong> avec "
+#~ "ou sans options pour afficher les références (<em>voir la documentation "
+#~ "pour les options complémentaires</em>)."
+
+#~ msgid ""
+#~ "Multiple options are permitted to customize to best display in the modal:"
+#~ msgstr ""
+#~ "Plusieurs options sont permises afin de personnaliser au mieux "
+#~ "l'affichage :"
+
+#~ msgid "[modal-portfolio] to display all."
+#~ msgstr "[modal-portfolio] pour tout afficher."
+
+#~ msgid ""
+#~ "[modal-portfolio parents=1] to display the items of parent categories and "
+#~ "the corresponding filters."
+#~ msgstr ""
+#~ "[modal-portfolio parents=1] pour afficher les items des catégories "
+#~ "parentes et les filtres correspondants."
+
+#~ msgid ""
+#~ "[modal-portfolio parent_cat=\"category_name\"] or [modal-portfolio "
+#~ "categorie_parente=\"category_name\"] to show the child categories of "
+#~ "items \"category_name\"."
+#~ msgstr ""
+#~ "[modal-portfolio parent_cat=\"nom_categorie\"] ou [modal-portfolio "
+#~ "categorie_parente=\"nom_categorie\"] pour afficher les items des "
+#~ "catégories filles de \"nom_categorie\"."
+
+#~ msgid ""
+#~ "<em>N.B.: contact <a href=\"http://blog.internet-formation.fr/\" target="
+#~ "\"_blank\">Mathieu Chartier</a>, the creator of the plugin (French), for "
+#~ "more information.</em>"
+#~ msgstr ""
+#~ "<em>N.B. : cette extension n'est pas parfaite, n'hésitez pas à contacter "
+#~ "<a href=\"http://blog.internet-formation.fr\" target=\"_blank\">Mathieu "
+#~ "Chartier</a>, le créateur du plugin, pour de plus amples informations.</"
+#~ "em>"
+
+#~ msgid "General Settings"
+#~ msgstr "Paramétrage général"
+
+#~ msgid "Display a default image?"
+#~ msgstr "Afficher une image par défaut ?"
+
+#~ msgid ""
+#~ "The option to display an image when the reference has none (recommended)."
+#~ msgstr ""
+#~ "L'option permet d'afficher une image quand une référence n'en propose pas "
+#~ "(recommandé)."
+
+#~ msgid "Display filters?"
+#~ msgstr "Afficher les filtres ?"
+
+#~ msgid "The option to hide the category filters portfolios."
+#~ msgstr ""
+#~ "L'option permet de masquer les filtres de catégories des portfolios."
+
+#~ msgid "Show the \"All\" filter?"
+#~ msgstr "Afficher le filtre \"Tout\" ?"
+
+#~ msgid "This option allows to hide the filter that displays all references."
+#~ msgstr ""
+#~ "L'option permet de masquer le filtre qui affiche toutes les références."
+
+#~ msgid "Show description in modal window?"
+#~ msgstr "Afficher la description dans la fenêtre modale ?"
+
+#~ msgid ""
+#~ "The option allows you to change the modal window to display the image "
+#~ "with or without description."
+#~ msgstr ""
+#~ "L'option permet de modifier la fenêtre modale pour afficher l'image avec "
+#~ "ou sans description."
+
+#~ msgid "Show title in the modal window?"
+#~ msgstr "Afficher le titre dans la fenêtre modale ?"
+
+#~ msgid ""
+#~ "The option allows you to change the modal window to display the image "
+#~ "with or without title."
+#~ msgstr ""
+#~ "L'option permet de modifier la fenêtre modale pour afficher l'image avec "
+#~ "ou sans titre."
+
+#~ msgid "Show title and category when hovering thumbnail?"
+#~ msgstr "Afficher le titre et la catégorie au survol des vignettes ?"
+
+#~ msgid "The option to hide text effects when hovering the thumbnail."
+#~ msgstr ""
+#~ "L'option permet de masquer les effets de texte au survol des vignettes."
+
+#~ msgid "View the \"Close\" button in the modal window?"
+#~ msgstr "Afficher le bouton \"Fermer\" dans la fenêtre modale ?"
+
+#~ msgid "Customizing jQuery effects"
+#~ msgstr "Personnalisation des effets jQuery"
+
+#~ msgid "Background opacity (overlay)"
+#~ msgstr "Niveau d'opacité du fond (overlay)"
+
+#~ msgid "Ability to hide the background by setting the value to 0."
+#~ msgstr "Possibilité de masquer le fond en mettant la valeur à 0."
+
+#~ msgid "Close modal clicking on the overlay?"
+#~ msgstr "Fermer la modale en cliquant sur le fond (overlay) ?"
+
+#~ msgid ""
+#~ "The option closes the modal window without pressing the \"Close\" button."
+#~ msgstr ""
+#~ "L'option permet de fermer la fenêtre modale sans appuyer sur le bouton "
+#~ "\"Fermer\"."
+
+#~ msgid "Background color (overlay)"
+#~ msgstr "Couleur du fond (overlay)"
+
+#~ msgid "You can hide the overlay emptying the field."
+#~ msgstr "Il est possible de masquer l'overlay en vidant le champ."
+
+#~ msgid "Display duration of the overlay (in ms)"
+#~ msgstr "Durée d'affichage du fond (en ms)"
+
+#~ msgid "Select the number of milliseconds helpful to show the overlay."
+#~ msgstr ""
+#~ "Sélectionnez le nombre de millisecondes utiles pour afficher le fond."
+
+#~ msgid ""
+#~ "Duration of effect to display the modal window and the contents (in ms)"
+#~ msgstr "Durée d'affichage de la modale et des contenus (en ms)"
+
+#~ msgid ""
+#~ "Select the number of milliseconds to display the modal window and the "
+#~ "content"
+#~ msgstr ""
+#~ "Sélectionnez le nombre de millisecondes utiles pour afficher la modale et "
+#~ "les contenus"
+
+#~ msgid "fadeIn"
+#~ msgstr "fadeIn"
+
+#~ msgid "fadeOut"
+#~ msgstr "fadeOut"
+
+#~ msgid "SlideUp"
+#~ msgstr "SlideUp"
+
+#~ msgid "slideDown"
+#~ msgstr "slideDown"
+
+#~ msgid "Effect of style applied to the opening of the modal window"
+#~ msgstr "Effet de style appliqué à l'ouverture de la fenêtre modale"
+
+#~ msgid "Only the opening jQuery effect considers this option!"
+#~ msgstr "Seul l'effet jQuery d'ouverture prend en compte cette option !"
+
+#~ msgid "Apply effect to the title thumbnail?"
+#~ msgstr "Appliquer un effet pour le titre des vignettes ?"
+
+#~ msgid "Blocks jQuery effects on thumbnail title"
+#~ msgstr "Bloque les effets jQuery sur les titres de vignettes"
+
+#~ msgid "First effect applied to the text of the thumbnail"
+#~ msgstr "Premier effet appliqué au texte de la vignette"
+
+#~ msgid "Effect applied when hovering the thumbnail !"
+#~ msgstr "Effet appliqué au survol de la vignette !"
+
+#~ msgid "Duration of the first effect (in ms)"
+#~ msgstr "Durée du premier effet (en ms)"
+
+#~ msgid "Select the number of milliseconds for the first useful effect."
+#~ msgstr ""
+#~ "Sélectionnez le nombre de millisecondes utiles pour le premier effet."
+
+#~ msgid "Second effect applied to the thumbnail text"
+#~ msgstr "Second effet appliqué au texte de la vignette"
+
+#~ msgid "Effect applied after hovering the thumbnail"
+#~ msgstr "Effet appliqué lorsque l'on quitte le survol de la vignette !"
+
+#~ msgid "Duration of the second effect (in ms)"
+#~ msgstr "Durée du second effet (en ms)"
+
+#~ msgid "Select the number of milliseconds for the second useful effect."
+#~ msgstr ""
+#~ "Sélectionnez le nombre de millisecondes utiles pour le second effet."
+
+#~ msgid "All"
+#~ msgstr "Tous"
+
+#~ msgid "Video format not supported by your browser, you can "
+#~ msgstr "Format vidéo non supporté par votre navigateur, vous pouvez "
+
+#~ msgid "download the video"
+#~ msgstr "télécharger la vidéo"
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
+
+#~ msgid "Modal Portfolio Styles"
+#~ msgstr "Styles CSS"
+
+#~ msgid "URL of the CSS file of the theme"
+#~ msgstr "URL du fichier CSS du thème"
+
+#~ msgid ""
+#~ "The option allows to choose another if desired style sheet (leave empty "
+#~ "to not use CSS)."
+#~ msgstr ""
+#~ "L'option permet de choisir une autre feuille de style si désirée (laisser "
+#~ "vide pour ne pas utiliser de CSS du tout)."
+
+#~ msgid "by default."
+#~ msgstr "par défaut."
+
+#~ msgid "Use dynamic CSS?"
+#~ msgstr "Utiliser des CSS dynamiques ?"
+
+#~ msgid ""
+#~ "If \"yes\" is selected, the plugin uses a file style.php instead of style."
+#~ "css (and makes the right options used)."
+#~ msgstr ""
+#~ "Si \"oui\" est sélectionné, le plugin utilise un fichier style.php plutôt "
+#~ "que style.css (et rend les options de droite utilisables)."
+
+#~ msgid "Style of the effects"
+#~ msgstr "Style des effets"
+
+#~ msgid "Color of the rollover effect"
+#~ msgstr "Couleur des textes dans l'effet de survol"
+
+#~ msgid "Background-color of the rollover effect"
+#~ msgstr "Couleur de fond dans l'effet de survol"
+
+#~ msgid "top"
+#~ msgstr "Haut"
+
+#~ msgid "bottom"
+#~ msgstr "Bas"
+
+#~ msgid "Positioning the rollover effect over thumbnails"
+#~ msgstr "Positionnement de l'effet de survol au-dessus des vignettes"
+
+#~ msgid "Height of the effect (in px)"
+#~ msgstr "Hauteur du bloc de l'effet de survol (en px)"
+
+#~ msgid "Global padding of the effect (in px)"
+#~ msgstr "Padding général de l'effet de survol (en px)"
+
+#~ msgid "left"
+#~ msgstr "gauche"
+
+#~ msgid "center"
+#~ msgstr "centré"
+
+#~ msgid "right"
+#~ msgstr "droite"
+
+#~ msgid "justify"
+#~ msgstr "justifié"
+
+#~ msgid "Text alignment in the rollover effect"
+#~ msgstr "Alignement du texte dans l'effet de survol"
+
+#~ msgid "Style of the thumbnails"
+#~ msgstr "Style des vignettes"
+
+#~ msgid "Width of the thumbnails"
+#~ msgstr "Largeur des vignettes"
+
+#~ msgid "Margin of the thumbnails"
+#~ msgstr "Marges appliquées aux vignettes"
+
+#~ msgid "Style of the modal window"
+#~ msgstr "Style de la fenêtre modale"
+
+#~ msgid "Rounded corners"
+#~ msgstr "Coins arrondis"
+
+#~ msgid "Square corners"
+#~ msgstr "Coins carrés"
+
+#~ msgid "Type of corners for the modal window"
+#~ msgstr "Type de coins utilisés pour la fenêtre modale"
+
+#~ msgid "Border radius (if \"rounded corners\")"
+#~ msgstr "Rayon des coins arrondis (si l'option est sélectionnée)"
+
+#~ msgid "Width of the modal window"
+#~ msgstr "Largeur de la fenêtre modale"
+
+#~ msgid "Height of the modal window"
+#~ msgstr "Hauteur de la fenêtre modale"
+
+#~ msgid "Width of the left column in the modal window"
+#~ msgstr "Largeur de la colonne de gauche dans la fenêtre modale"
+
+#~ msgid ""
+#~ "The width of the left column corresponds to the width of the image or "
+#~ "video."
+#~ msgstr ""
+#~ "La largeur de la colonne de gauche correspond à la largeur de l'image ou "
+#~ "de la vidéo."
+
+#~ msgid "Width of the right column in the modal window"
+#~ msgstr "Largeur de la colonne de droite dans la fenêtre modale"
+
+#~ msgid "Margin-right of the left column (space between the columns)"
+#~ msgstr "Marge à droite de la colonne de gauche (espace entre les colonnes)"
+
+#~ msgid "Style of the filters"
+#~ msgstr "Style des filtres"
+
+#~ msgid "Button font-size"
+#~ msgstr "Taille de la police des filtres"
+
+#~ msgid "Link button background-color"
+#~ msgstr "Couleur du fond du bouton"
+
+#~ msgid "Hover button background-color"
+#~ msgstr "Couleur de fond du bouton (au survol)"
+
+#~ msgid "Hover button color"
+#~ msgstr "Couleur du texte du bouton (au survol)"
+
+#~ msgid "Borders style"
+#~ msgstr "Style des bordures"
+
+#~ msgid "Type of corners"
+#~ msgstr "Type de coins"
+
+#~ msgid "Padding of the filters"
+#~ msgstr "Marges intérieures appliquées aux filtres"
+
+#~ msgid "Margin of the filters"
+#~ msgstr "Marges appliquées aux filtres"
+
+#~ msgid "Style of the thumbnails and of the modal window"
+#~ msgstr "Style des vignettes et de la fenêtre modale"
+
+#~ msgid "Customizing the default stylesheet"
+#~ msgstr "Personnalisation des CSS par défaut"
+
+#~ msgid "Overall color"
+#~ msgstr "Couleur générale"
